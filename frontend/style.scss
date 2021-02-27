@@ -1,0 +1,30 @@
+.game {
+	border: 1px solid black;
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.play1 {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+	height: 400px;
+	width: 400px;
+}
+
+.play2 {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	height: 400px;
+	width: 400px;
+}
